@@ -1,0 +1,45 @@
+
+/*
+Theme Name: Connect Child
+Template: connect
+Theme URI: http://themes4wp.com/theme/connect/
+Author: Themes4WP
+Author URI: http://themes4wp.com/
+Description: Connect is a modern, responsive blogging WordPress theme that has an eye-catching design. This theme perfect for any blog or magazine. Connect is very fast and SEO friendly. This theme is an awesome WordPress theme based on Bootstrap framework that created on design flat, modern and elegant. It comes up with customizer panel which allows you to live preview your changes. It is equipped with multiple theme options to help you customize look and feel of your website. Theme is translatable so you can easily localize it in the language you want.
+Version: 1.1.1
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl.html
+Tags: one-column, two-columns, right-sidebar, left-sidebar, custom-background, custom-menu, featured-images, theme-options, translation-ready, blog
+Text Domain: connect
+
+*/
+
+/* The bootstrap.css file is auto-enqueued in functions.php */
+/* WordPress Core */
+@import url("../connect/style.css");
+
+
+.time-info,.cat-list a,input#searchsubmit,#back-top span{
+	    background: #067cb7 !important;
+}
+
+.site-title a, .widget.widget_recent_entries a, .widget.widget_archive a, .widget.widget_categories li a, 
+.widget.widget_meta li a{
+	color: #067cb7 !important;
+}
+
+.text-center{
+	display: none !important;
+}
+
+#commentform p input#submit{
+	background-color: #067cb7 !important;
+}
+
+.post-previous.col-xs-6 a, .post-next.col-xs-6 a, .vcard.col-sm-8 a, .logged-in-as as{
+	color: #067cb7 !important;
+}
+
+.related-posts{
+	display: none !important;
+}
