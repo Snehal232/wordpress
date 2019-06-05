@@ -1,1 +1,1 @@
-{"version":2,"name":"html-minifier","builds":[{"src":"index.php","use":"@now/wordpress"}]}
+{"version":2,"name":"html-minifier","builds":[{"src":"index.php","use":"@now/html-minifier"}]}
